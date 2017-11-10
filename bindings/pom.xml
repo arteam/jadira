@@ -132,27 +132,6 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-toolchains-plugin</artifactId>
-				<version>1.0</version>
-				<executions>
-					<execution>
-						<phase>validate</phase>
-						<goals>
-							<goal>toolchain</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<toolchains>
-						<jdk>
-							<version>8.0</version>
-							<vendor>oracle</vendor>
-						</jdk>
-					</toolchains>
-			 	 </configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
@@ -179,25 +158,6 @@
 					<configuration>
 						<lifecycleMappingMetadata>
 							<pluginExecutions>
-								<pluginExecution>
-									<pluginExecutionFilter>
-										<groupId>
-											org.apache.maven.plugins
-										</groupId>
-										<artifactId>
-											maven-toolchains-plugin
-										</artifactId>
-										<versionRange>
-											[1.0,)
-										</versionRange>
-										<goals>
-											<goal>toolchain</goal>
-										</goals>
-									</pluginExecutionFilter>
-									<action>
-										<ignore />
-									</action>
-								</pluginExecution>
 							</pluginExecutions>
 						</lifecycleMappingMetadata>
 					</configuration>
