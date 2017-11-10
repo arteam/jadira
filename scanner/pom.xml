@@ -21,7 +21,7 @@
 	<parent>
 		<groupId>com.github.arteam.org.jadira.framework</groupId>
 		<artifactId>jadira.parent</artifactId>
-		<version>6.0.2.GA-SNAPSHOT</version>
+		<version>6.0.1.GA-jdk9</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
