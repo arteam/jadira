@@ -9,13 +9,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.jadira.framework</groupId>
+        <groupId>com.github.arteam.org.jadira.framework</groupId>
         <artifactId>jadira.parent</artifactId>
         <version>6.0.2.GA-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.jadira.jms</groupId>
+    <groupId>com.github.arteam.org.jadira.jms</groupId>
     <artifactId>jms</artifactId>
     <packaging>jar</packaging>
     
@@ -25,7 +25,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.jadira.framework</groupId>
+                <groupId>com.github.arteam.org.jadira.framework</groupId>
                 <artifactId>jadira.depmgmt</artifactId>
                 <type>pom</type>
                 <scope>import</scope>

@@ -19,7 +19,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<parent>
-		<groupId>org.jadira.framework</groupId>
+		<groupId>com.github.arteam.org.jadira.framework</groupId>
 		<artifactId>jadira.parent</artifactId>
 		<version>6.0.2.GA-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
@@ -27,7 +27,7 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.jadira.cdt</groupId>
+	<groupId>com.github.arteam.org.jadira.cdt</groupId>
 	<artifactId>cdt</artifactId>
 	<packaging>jar</packaging>
 
@@ -37,7 +37,7 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.jadira.framework</groupId>
+				<groupId>com.github.arteam.org.jadira.framework</groupId>
 				<artifactId>jadira.depmgmt</artifactId>
 				<type>pom</type>
 				<scope>import</scope>
@@ -64,7 +64,7 @@
 			<artifactId>libphonenumber</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jadira.bindings</groupId>
+			<groupId>com.github.arteam.org.jadira.bindings</groupId>
 			<artifactId>bindings</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -118,7 +118,7 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.jadira.maven</groupId>
+				<groupId>com.github.arteam.org.jadira.maven</groupId>
 				<artifactId>fmpp-maven-plugin</artifactId>
 				<version>${project.version}</version>
 				<configuration>
@@ -148,7 +148,7 @@
 		                    <pluginExecutions>
 		                        <pluginExecution>
 		                            <pluginExecutionFilter>
-		                                <groupId>org.jadira.maven</groupId>
+		                                <groupId>com.github.arteam.org.jadira.maven</groupId>
 		                                <artifactId>fmpp-maven-plugin</artifactId>
 		                                <versionRange>[3.1.0.CR8-SNAPSHOT,)</versionRange>
 		                                <goals>

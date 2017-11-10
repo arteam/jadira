@@ -20,7 +20,7 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.jadira.framework</groupId>
+	<groupId>com.github.arteam.org.jadira.framework</groupId>
 	<artifactId>jadira.depmgmt</artifactId>
 	<packaging>pom</packaging>
 
