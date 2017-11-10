@@ -19,7 +19,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<parent>
-		<groupId>org.jadira.framework</groupId>
+		<groupId>com.github.arteam.jadira</groupId>
 		<artifactId>jadira.parent</artifactId>
 		<version>6.0.2.GA-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
@@ -27,7 +27,7 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.jadira.usertype</groupId>
+	<groupId>com.github.arteam.jadira</groupId>
 	<artifactId>usertype.core</artifactId>
 	<packaging>jar</packaging>
 
@@ -37,7 +37,7 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.jadira.framework</groupId>
+				<groupId>com.github.arteam.jadira</groupId>
 				<artifactId>jadira.depmgmt</artifactId>
 				<type>pom</type>
 				<scope>import</scope>
@@ -118,12 +118,12 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>org.jadira.usertype</groupId>
+			<groupId>com.github.arteam.jadira</groupId>
 			<artifactId>usertype.spi</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jadira.usertype</groupId>
+			<groupId>com.github.arteam.jadira</groupId>
 			<artifactId>usertype.spi</artifactId>
 			<version>${project.version}</version>
 			<type>test-jar</type>
@@ -131,7 +131,7 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>org.jadira.cdt</groupId>
+			<groupId>com.github.arteam.jadira</groupId>
 			<artifactId>cdt</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
